@@ -1,0 +1,157 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    /* member info*/
+    
+    .member_overlay {
+        width: 100%;
+        min-height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .member_overlay .profile {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        min-height: 600px;
+    }
+    
+    .profile .imgele {
+        width: 100%;
+        min-height: 200px;
+        background-color: rgb(209, 209, 209);
+        background-image: url('./Images/profilebg.jpg');
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .imgele img {
+        margin: 10px 50px;
+        padding: 5px;
+        width: 130px;
+        height: 180px;
+        /* border: 1px solid white; */
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(7, 6, 6);
+    }
+    
+    .imgele #name {
+       float: right;
+        color: white;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 2px;
+    }
+    
+    .profile .infoele {
+      margin-top:10px;
+        width: 100%;
+        min-height: 400px;
+        background-image: url('./Images/bg3.jpg');
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Merienda+One&display=swap');
+    .infoele p{
+        margin: 10px;
+        padding: 10px;
+        text-align:center;
+        color: rgb(77, 3, 129);
+        display: block;
+        height: 200px;
+        font-family: 'Merienda One', cursive;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Hi+Melody&display=swap');
+
+    .infoele .con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        width:100%;
+        font-family: 'Hi Melody', cursive;
+    }
+    .member_overlay .descripton {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        width: 90%;
+        min-height: 400px;
+        background-image: url('./Images/bg3.jpg');
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .dataTable{
+        width: 80%;
+        text-align: left;
+        border-spacing: 5px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+    .dataTable th,td{
+        text-align: left;
+        width:40%;
+        font-family: 'Delius', cursive;
+    }
+  @media screen and (max-width:530px) {
+    .profile .imgele {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imgele img {
+        margin: 0px;
+        padding: 5px;
+        width: 130px;
+        height: 180px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(7, 6, 6);
+    }
+    
+    .imgele #name {
+        margin: 10px;
+        float: none;
+        color: white;
+        font-family: 'Fredoka One', cursive;
+        letter-spacing: 2px;
+    }
+    .infoele .con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0px;
+        width:100%;
+    }
+    .dataTable{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: left;
+        border-spacing: 5px;
+        font-size: 12px;
+    }
+  }
